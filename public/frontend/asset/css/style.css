@@ -1,0 +1,320 @@
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    background-image: url('/images/e5a47b96_0d7a_4767_80a7_22b086dfd8c6-sangsad.gif'); /* Add the image path */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 100px; /* Adjust size as per your image */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/images-bg_block_list.png');
+    z-index: 1;
+}
+
+header .logo img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+header .search-bar,
+header .language {
+    z-index: 2;
+    position: relative;
+    left: 400px;
+}
+
+
+header {
+    background-color: #05970d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+header .logo p {
+    font-size: 16px;
+}
+
+header .search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+header .search-bar button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+header .language a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px 0;
+}
+
+main .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main .announcement {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+main .announcement h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main .announcement ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main .announcement li {
+    margin-bottom: 5px;
+}
+
+main .notice {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+main .notice h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main .notice .text-size, main .notice .color {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+main .notice .text-size label, main .notice .color label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+main .notice .text-size select, main .notice .color select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+main .notice .search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+main .notice .search input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 70%;
+}
+
+main .notice .search button {
+    padding: 10px 20px;
+    background-color: #11e909;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+main .notice table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+main .notice th, main .notice td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+main .notice th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+main .notice button {
+    padding: 10px 20px;
+    background-color: #08e913;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    width: auto;
+}
+
+/* Footer */
+.footer-artwork {
+    background: url("../images/images-footer_top_bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 84px;
+    margin: 0 auto;
+    width: 1020px;
+    clear: both;
+}
+
+.footer-wrapper {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.footer-credit {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-credit a {
+    text-decoration: none;
+    color: #05970d; /* Use the primary green color for links */
+}
+
+.footer-credit a:hover {
+    text-decoration: underline;
+}
+
+.footer-credit img {
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-wrapper {
+        width: 100%;
+        padding: 10px;
+    }
+    .footer-credit p {
+        font-size: 12px;
+    }
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	.footer-artwork {
+		height: 15px;
+		margin: 0 auto;
+		background-color: #666;
+	}
+	#notice-board{
+				background: url("../images/images-welcome_grad.png") repeat-x scroll center bottom #EBEBEB;
+				border: 1px solid #DDDDDD;
+				height: 172px;
+				font-size: .8em;
+				padding: 20px 0 0 120px;
+			}
+			#notice-board h2{
+				font-size: 1.5em;
+			}
+}
